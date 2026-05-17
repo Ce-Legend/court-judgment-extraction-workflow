@@ -4,7 +4,7 @@
 
 最后我收敛到一个更务实的方案：人先在浏览器里完成搜索和必要确认，脚本接管重复劳动。它从已经打开的裁判文书网搜索结果页开始，逐页读取案件列表，进入详情页抓取正文，边跑边写 CSV，后面再把判决书文本整理成可以分析的字段。
 
-我觉得它值得单独放进作品集，因为它记录了一类很常见的真实问题：网页能打开，结果也能看到，但要稳定拿到几百份正文、不中断丢数据、最后还能整理成 Excel 和结构化字段，光靠一个 selector 不够，需要一套可恢复的工作流。
+这个仓库记录了一类很常见的真实问题：网页能打开，结果也能看到，但要稳定拿到几百份正文、不中断丢数据、最后还能整理成 Excel 和结构化字段，光靠一个 selector 不够，需要一套可恢复的工作流。
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-browser%20control-43B02A?logo=selenium&logoColor=white)
